@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1957E29127DAAD5E00D91164 /* storageFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1957E29027DAAD5E00D91164 /* storageFunction.swift */; };
 		197A336427DA65AB000AA2D2 /* colorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A336327DA65AB000AA2D2 /* colorExtension.swift */; };
 		197A336727DA67EA000AA2D2 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A336627DA67EA000AA2D2 /* Guess.swift */; };
 		197A336A27DA737A000AA2D2 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A336927DA737A000AA2D2 /* GuessView.swift */; };
@@ -14,6 +15,8 @@
 		197A336F27DA94D6000AA2D2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A336E27DA94D6000AA2D2 /* Common.swift */; };
 		197A337127DA9AF0000AA2D2 /* LetterBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A337027DA9AF0000AA2D2 /* LetterBtnView.swift */; };
 		197A337327DA9C0E000AA2D2 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A337227DA9C0E000AA2D2 /* KeyboardView.swift */; };
+		19C6218427DAA80600F88252 /* DictionaryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6218327DAA80600F88252 /* DictionaryItems.swift */; };
+		19C6218627DAA89100F88252 /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 19C6218527DAA89100F88252 /* dictionary.json */; };
 		19DA4F0927DA50BF00ECAFD2 /* wordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DA4F0827DA50BF00ECAFD2 /* wordleApp.swift */; };
 		19DA4F0B27DA50BF00ECAFD2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DA4F0A27DA50BF00ECAFD2 /* GameView.swift */; };
 		19DA4F0D27DA50C100ECAFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DA4F0C27DA50C100ECAFD2 /* Assets.xcassets */; };
@@ -22,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1957E29027DAAD5E00D91164 /* storageFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storageFunction.swift; sourceTree = "<group>"; };
 		197A336327DA65AB000AA2D2 /* colorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorExtension.swift; sourceTree = "<group>"; };
 		197A336627DA67EA000AA2D2 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
 		197A336927DA737A000AA2D2 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
@@ -29,6 +33,8 @@
 		197A336E27DA94D6000AA2D2 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		197A337027DA9AF0000AA2D2 /* LetterBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBtnView.swift; sourceTree = "<group>"; };
 		197A337227DA9C0E000AA2D2 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		19C6218327DAA80600F88252 /* DictionaryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DictionaryItems.swift; path = wordle/wordCollection/DictionaryItems.swift; sourceTree = SOURCE_ROOT; };
+		19C6218527DAA89100F88252 /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
 		19DA4F0527DA50BF00ECAFD2 /* wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DA4F0827DA50BF00ECAFD2 /* wordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordleApp.swift; sourceTree = "<group>"; };
 		19DA4F0A27DA50BF00ECAFD2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -49,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1957E29227DAB9A600D91164 /* wordCollection */ = {
+			isa = PBXGroup;
+			children = (
+				1957E29027DAAD5E00D91164 /* storageFunction.swift */,
+				19C6218327DAA80600F88252 /* DictionaryItems.swift */,
+				19C6218527DAA89100F88252 /* dictionary.json */,
+			);
+			path = wordCollection;
+			sourceTree = "<group>";
+		};
 		197A336227DA657A000AA2D2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +127,7 @@
 				197A336827DA733C000AA2D2 /* Views */,
 				197A336527DA67C5000AA2D2 /* Models */,
 				197A336227DA657A000AA2D2 /* Extensions */,
+				1957E29227DAB9A600D91164 /* wordCollection */,
 				19DA4F0C27DA50C100ECAFD2 /* Assets.xcassets */,
 				19DA4F0E27DA50C100ECAFD2 /* Preview Content */,
 			);
@@ -184,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19DA4F1727DA52A800ECAFD2 /* Launch Screen.storyboard in Resources */,
+				19C6218627DAA89100F88252 /* dictionary.json in Resources */,
 				19DA4F1027DA50C100ECAFD2 /* Preview Assets.xcassets in Resources */,
 				19DA4F0D27DA50C100ECAFD2 /* Assets.xcassets in Resources */,
 			);
@@ -196,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C6218427DAA80600F88252 /* DictionaryItems.swift in Sources */,
 				197A336427DA65AB000AA2D2 /* colorExtension.swift in Sources */,
 				197A336A27DA737A000AA2D2 /* GuessView.swift in Sources */,
 				197A336727DA67EA000AA2D2 /* Guess.swift in Sources */,
@@ -204,6 +223,7 @@
 				197A336D27DA7952000AA2D2 /* WordleDataModel.swift in Sources */,
 				197A337127DA9AF0000AA2D2 /* LetterBtnView.swift in Sources */,
 				19DA4F0927DA50BF00ECAFD2 /* wordleApp.swift in Sources */,
+				1957E29127DAAD5E00D91164 /* storageFunction.swift in Sources */,
 				197A336F27DA94D6000AA2D2 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

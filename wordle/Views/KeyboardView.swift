@@ -18,11 +18,13 @@ struct KeyboardView: View {
                 ForEach(topRowArray, id: \.self) { letter in
                     LetterBtnView(letter: letter)
                 }
+                .disabled(dm.disabledKeys)
             }
             HStack(spacing: 2) {
                 ForEach(secondRowArray, id: \.self) { letter in
                     LetterBtnView(letter: letter)
                 }
+                .disabled(dm.disabledKeys)
             }
             HStack(spacing: 2) {
                 Button {
@@ -37,6 +39,7 @@ struct KeyboardView: View {
                 ForEach(thirdRowArray, id: \.self) { letter in
                     LetterBtnView(letter: letter)
                 }
+                .disabled(dm.disabledKeys)
                 Button {
                     dm.removeLetterFromCurrentWord()
                 } label: {
