@@ -11,7 +11,7 @@
 
 ## App Specifications
 
-- word collection is tried to create by using dictionary.json but json parsing not working due that for continue with rest of the app i have used a hard code array.
+- word collection is tried to create by using dictionary.json but json parsing not working because of that, to continue with rest of the app i have used a hard code array.
 
 - rest of the functions are working
 
