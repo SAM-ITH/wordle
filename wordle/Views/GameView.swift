@@ -29,32 +29,11 @@ struct GameView: View {
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "questionmark.circle")
-                    }
-                }
                 ToolbarItem(placement: .principal) {
                     Text("WORDLE")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .foregroundColor(.primary)
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    HStack{
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "chart.bar")
-                        }
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "gearshape.fill")
-                        }
-                    }
                 }
             }
         }
